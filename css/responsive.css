@@ -1,0 +1,170 @@
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1401px){
+
+}
+
+/* Extra large screens, TV – 1201px, and more */
+@media only screen and (max-width: 1400px) and (min-width: 1201px){
+
+}
+
+/* Desktops, large screens – 1025px — 1200px. */
+@media only screen and (max-width: 1200px) and (min-width: 1025px){
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+}
+    .title-container h1{
+    font-size: 2.5rem;
+    
+}
+}
+
+/* Small screens, laptops – 769px — 1024px. */
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+.title-container{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+}
+.title-container h1{
+        font-size: 2.5rem;
+        
+}
+.title-container p{
+    font-size: 0.700rem;
+    
+}
+.youtube-icon{
+    padding: 0.5rem 0.5rem;
+}
+
+.header_youtube_button a p{
+    font-size: 1rem;
+}
+
+}
+
+/* iPads, Tablets – 481px — 768px. */
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .logo a img{
+        max-width: 50%;
+        height: auto;
+    }
+
+    .title-container h1{
+        font-size: 2rem;
+    }
+
+    .title-container p{
+        font-size: 0.8rem;
+    }
+    
+
+}
+
+/* Mobile devices – 320px — 480px. */
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+.logo{
+    top: 0px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo a img{
+    max-width: 4.5rem;
+    height: auto;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-container h1 {
+    color: #1A9AFF;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.title-container p{
+    color: #fff;
+    text-align: start;
+    font-size: 0.7rem;
+}
+.header-youtube-button-container{
+    background-color: red; 
+}
+
+.search_container{
+    display: flex;
+    justify-content: center;
+}
+
+.search_container input{
+    width: 25rem;
+    margin-left: 0rem;
+    font-size: 0.8rem;
+
+}
+
+.search_icon{
+    /* position: absolute; */
+    right: 20px
+    
+}
+
+.header_youtube_button{
+ display: block;
+ margin: 0 auto; 
+}
+
+.login-btn{
+    padding-right: 0rem;
+    width: 100%;
+    margin: 0.5rem 0;
+    
+}
+
+.div-height{
+    height: calc(100vh - 75vh);
+}
+.social-group{
+    display: none;
+}
+
+.middle-content{
+    display: none;
+}
+
+.blink{
+    display: none;
+}
+
+.middle-content-container{
+    display: none;
+}
+
+.profile-info{
+    margin-top: 3rem;
+}
+
+.profile-text p{
+    padding: 0 0.8rem;
+}
+
+}
